@@ -20,8 +20,7 @@ const ShareButton = () => {
         onClick={sharePage}
         className="flex items-center bg-blue-500 text-white px-3 py-2 rounded shadow hover:bg-blue-600"
       >
-        <i className="fas fa-share-alt mr-2"></i>
-        Compartir
+        <i className="fas fa-share-from-square ml-0.5"></i>
       </button>
     </div>
   );
