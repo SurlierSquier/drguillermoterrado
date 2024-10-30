@@ -4,5 +4,11 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [function ({ addUtilities }) {
+    addUtilities({
+      '.hover-effect': {
+        '@apply hover:opacity-85 hover:scale-110': {}
+      }
+    })
+  }],
 };
